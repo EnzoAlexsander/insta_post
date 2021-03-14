@@ -2,10 +2,24 @@ import { Notifyer } from './Notifyer.js';
 import { Timer } from './Timer.js';
 import { Emitter } from './Emitter.js'
 
-const notify = Notifyer.notify({
-    title: "Hora do post",
-    body: "Crie algum conteúdo para ajudar a comunidade"
-})
+const messages = [
+    "Postar foto do meu setup",
+    "Postar uma frase motivacional",
+    "Ensinar algo que aprendi hoje ou ontem",
+    "Crie algum conteúdo para ajudar a comunidade"
+];
+
+const notify = () => {
+
+    const randomIndex = Math.floor(Math.random() * messages.length)
+
+    const notification = Notifyer.notify({
+        title: "Hora do post",
+        body: messages[randomIndex]
+    })
+
+    notification()
+}
 
 const App = {
     async start() {
@@ -13,7 +27,6 @@ const App = {
             await Notifyer.init();
 
             Emitter.on('countdown-start', notify)
-
             Emitter.on('countdown-end', Timer.init)
 
             Timer.init(0.1 * 60);
