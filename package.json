@@ -1,0 +1,23 @@
+{
+  "name": "insta_post",
+  "version": "1.0.0",
+  "description": "App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoAlexsander/insta_post.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoAlexsander/insta_post/issues"
+  },
+  "homepage": "https://github.com/EnzoAlexsander/insta_post#readme",
+  "devDependencies": {
+    "electron": "^12.0.1"
+  }
+}
