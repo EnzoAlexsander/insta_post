@@ -1,3 +1,5 @@
+const { BrowserWindow } = require('electron');
+
 function createWindow() {
     const win = new BrowserWindow({
         width: 250,
@@ -7,7 +9,7 @@ function createWindow() {
         fullscreenable: false,
     });
 
-    win.loadFile('../index.html');
+    win.loadFile('index.html');
     //pra abrir qualquer outra pagina da internet
     //win.loadURL("https://google.com")
 
