@@ -1,4 +1,5 @@
-![](https://img.shields.io/github/repo-size/EnzoAlexsander/dev-finance) ![](https://img.shields.io/github/languages/top/EnzoAlexsander/dev-finance)
+![](https://img.shields.io/github/repo-size/EnzoAlexsander/insta_post)
+![](https://img.shields.io/github/languages/top/EnzoAlexsander/insta_post)
 
 <br>
 <div align="center">
@@ -14,9 +15,10 @@ Project made on the channel of the great master Mayk Brito.
 <br>
 
 ## 💻 Preview
+<br>
 
 <div align="center">
-    <img src="./assets/images/devfinance.gif">
+    <img src="./assets/preview.gif">
 </div>
 <br><br>
 
@@ -24,7 +26,8 @@ Project made on the channel of the great master Mayk Brito.
 
 - HTML
 - CSS
-- JavaScript
+- Node
+- Electron
 <br><br>
 
 ## 🙋🏽‍♂️ Author
